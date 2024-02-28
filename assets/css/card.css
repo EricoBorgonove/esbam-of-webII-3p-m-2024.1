@@ -1,0 +1,23 @@
+h2{
+    font-size: 3rem;
+}
+h3{
+    font-size: 2rem;
+}
+.container {
+    display: flex;
+}
+.item1{
+    width: 35%;
+    margin-right: 2.5%;
+    margin-left: 2.5%;
+}
+.item2{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 60%;
+}
+.subitem{
+    width: 20%;
+}

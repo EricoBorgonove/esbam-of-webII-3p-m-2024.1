@@ -1,0 +1,25 @@
+.container{
+    height: 100%;
+    border: 3px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: left; /*só funciona em row*/
+    align-items: center; /*só funciona para colunm*/
+    flex-wrap: wrap; /*prioriza o tamanho do elemento, 
+                            enviando alguns para a linha inferior*/
+}
+.item{
+    background-color: red;
+    border: 2px solid black;
+    width: 300px;
+    height: 250px;
+    margin: 10px;
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+    font-weight: bold;
+}
+p{
+    text-align: justify;
+    padding: 1rem;
+}
