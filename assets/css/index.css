@@ -1,0 +1,27 @@
+:root{
+    --lightDark:  #6866A3;
+    --dark:  #302f4c;
+    --primary: #673EF0;
+    --secondary: #070999;
+    --light: #3E4FF0;
+    --white: #f9ecf4;
+    --other: #A13EF0;
+    --pink: #F43AAD;
+    --lightBlue: #50B1F5;
+    
+}
+html::-webkit-scrollbar{ /* controla a largura da barra*/
+    width: 15px;
+}
+html::-webkit-scrollbar-thumb{ /*controla a barra de rolagem*/
+    background-color: var(--light);
+    border-radius: 10px;
+}
+html::-webkit-scrollbar-track{  /*controla a cor de fundo*/
+    /*background-color: transparent;*/
+    background-color: var(--pink);
+}
+.bg-principal{
+    height: 2000px;
+    background-color: var(--other);
+}
