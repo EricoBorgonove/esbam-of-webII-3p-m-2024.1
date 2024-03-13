@@ -25,3 +25,10 @@ html::-webkit-scrollbar-track{  /*controla a cor de fundo*/
     height: 2000px;
     background-color: var(--other);
 }
+h3{
+    font-size: 4rem;;
+}
+p{
+    text-align: justify;
+    font-size: 1.5rem;
+}
