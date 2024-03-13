@@ -32,3 +32,16 @@ p{
     text-align: justify;
     font-size: 1.5rem;
 }
+.i-span{
+    font-size: 8rem;
+}
+footer{
+    height: 500px;
+}
+li{
+    font-size: 1.5rem;
+    margin-bottom: 3px;
+}
+li:hover{
+    zoom: 1.2;
+}
