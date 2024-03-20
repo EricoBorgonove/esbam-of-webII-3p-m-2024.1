@@ -1,3 +1,9 @@
 .bg-rosa{
     background-color: pink;
 }
+.teste{
+    height: 500px;
+}
+.borda{
+    border: 2px solid black;
+}

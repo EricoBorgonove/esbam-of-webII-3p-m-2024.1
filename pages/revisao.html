@@ -21,20 +21,78 @@
     <button  class="btn btn-lg btn-outline-danger">Clique em mim</button>
     <button  class="btn  btn-danger bg-rosa">Clique em mim</button>
 
-    <div class="bg-body-secondary">
+    <div class="bg-body-secondary pt-lg-5 pt-sm-2">
+        pt-lg-5 pt-0
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta assumenda voluptate cumque nesciunt praesentium recusandae qui in debitis dignissimos doloremque? Modi, enim cupiditate quibusdam nam sit aspernatur placeat provident fugit.
         Quisquam iste accusantium, tenetur molestias ducimus tempore illum aut! Mollitia officia nobis officiis obcaecati repudiandae, est minus tenetur fugiat et? Quasi sunt dolore amet quos odio accusamus consequuntur omnis et?
     </div>
 
-    <div>
+    <div class="ps-3">
         <p>
+            <h4>Propriedades de afastamento</h4>
             m - margem  - afastamento  do elemento da borda (ou seja, o espaço entre a borda e o conteúdo)
             <br> p - padding   - preenchimento interno do elemento (espaco dentro dele próprio)
-            <br> b - border   - linha que rodeia todo o elemento
+            <br> border   - linha que rodeia todo o elemento
+            <hr>
+                <h5>Propriedades de posição relativa</h5>
+            t - top parte superior do elemento
+            <br> b - botton - parte inferior do elemento
+            <br> s - start - parte inicial do elemento
+            <br> e - end - parte final do elemento
+            <br> x - posição relativa ao eixo x - inclui os valores start e end
+            <br> y -  posição relativa ao eixo y -  inclui os valores top e botton
+
+                <h5>tamanhos relativos</h5>
+             vai de 0 até 5
+             <br> onde 0 é completamente sem e 5 é o maior de todos
+             <br> p-0 até p-5  // px-5  // p-5 // pt-5 //
+             <br> m-0 ate m-5 // mt-3 // mx-2 // my-0
+        </p>
+        <hr>
+        <p >
+            <h4>Tamanhos de Rela Relativos</h4>
+
+            <img src="/assets/images/Screenshot from 2024-03-20 10-12-44.png" alt="">
+
         </p>
     </div>
+    <div>
+        <h4>Containers </h4>
+        <p>ele limita a expansão lateral da tela</p>
+        <div class="container"></div>
+    </div>
+
+    <div class="container-fluid bg-rosa">
+        <p>container fluid</p>
+    </div>
+    <div class="container-xxl bg-rosa">
+        <p>container xxl</p>
+    </div>
+
+    <section class="container-fluid bg-rosa">
+        <div class="container-xxl ">
+            <p>container xxl</p>
+        </div>
+    </section>
+    
+
+    <section class="container-xxl">
+        <div class="row borda p-2">
+            <div class="col-4 borda row">
+                <div class="col-4 borda">1</div>
+                <div class="col-4 borda">2</div>
+                <div class="col-4 borda">3</div>
+            </div>
+            <div class="col-4 borda">2</div>
+            <div class="col-4 borda">3</div>
+        </div>
+    </section>
 
 
+
+    <div class="teste">
+
+    </div>
     <!-- nao apagar -->
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
